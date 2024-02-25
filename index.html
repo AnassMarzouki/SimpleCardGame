@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarGame</title>
+    
+</head>
+<body>
+    <div id="top">
+        <button id="new-deck">Shuffle Deck</button>
+        <h3>Remaining cards: <span id="remaining-cards"></span></h3>
+    </div>
+
+    <h3><span id="top-msg"></span></h3>
+    <h4>Computer: <span id="cpu-score"></span></h4>
+    
+    <div id="image-section">
+        <div class="card-slot" id="card-slot-1">
+            <h1 id="default-card-bg">?</h1>
+        </div>
+
+        <div class="card-slot" id="card-slot-1">
+            <h1 id="default-card-bg2">?</h1>
+            
+        </div>
+
+    </div>
+    <h4>Me: <span id="me-score"></span></h4>
+    <button id="draw-btn">Draw</button>
+
+    <!-- GAME OVER pop up -->
+    <div id="game-over">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
